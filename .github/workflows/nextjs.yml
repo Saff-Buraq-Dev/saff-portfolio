@@ -29,10 +29,12 @@ jobs:
         run: |
           npm run build
           npm run export
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload production files
+        uses: actions/upload-artifact@v3
         with:
-          path: ./out
+          name: production-files
+          path: out/
+
 
   deploy:
     runs-on: ubuntu-latest
