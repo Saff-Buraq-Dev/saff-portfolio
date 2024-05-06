@@ -2,8 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/saff-portfolio',
-  assetPrefix: '/saff-portfolio/',
+  basePath: '/',
 }
 
 module.exports = nextConfig
