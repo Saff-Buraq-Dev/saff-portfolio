@@ -34,6 +34,7 @@ jobs:
         run: |
           npx next build
           npx next export
+          ls -la
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
