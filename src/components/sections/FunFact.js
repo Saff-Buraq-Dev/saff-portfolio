@@ -13,7 +13,7 @@ const FunFact = () => {
               <div className="icon">
                 <span className="fa fa-music" />
               </div>
-              <div className="name">80 Albumes Listened</div>
+              <div className="name">80 Albums Listened</div>
             </div>
           </div>
           {/* fuct item */}

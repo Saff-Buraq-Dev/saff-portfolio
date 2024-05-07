@@ -114,7 +114,7 @@ const Skills = () => {
                   </div>
                 </li>
                 <li>
-                  <div className="name">Arab</div>
+                  <div className="name">Arabic</div>
                   <div className="progress p100">
                     <span>100%</span>{" "}
                     <div className="slice">
