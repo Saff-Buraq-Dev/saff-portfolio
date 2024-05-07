@@ -30,7 +30,7 @@ const Clients = () => {
                   rel="noreferrer"
                   href="https://www.credly.com/badges/91634c7c-a16b-4a43-9949-7092af73b554/public_url"
                 >
-                  <img src="images/terraform.png" alt="Terraform certified associate" />
+                  <img src="images/terraform.webp" alt="Terraform certified associate" />
                 </a>
               </div>
             </div>
