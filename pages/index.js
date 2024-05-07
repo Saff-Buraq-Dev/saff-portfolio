@@ -7,6 +7,7 @@ import Home from "../src/components/Home";
 import Resume from "../src/components/Resume";
 import AboutMe from "../src/components/sections/AboutMe";
 import BlogSection from "../src/components/sections/Blog";
+import Clients from "../src/components/sections/Clients";
 import ContactForm from "../src/components/sections/ContactForm";
 import ContactInfo from "../src/components/sections/ContactInfo";
 import FunFact from "../src/components/sections/FunFact";
@@ -109,6 +110,7 @@ const Index3 = () => {
         <About>
           <AboutMe bio={bio} />
           <Services serviceList={services} />
+          <Clients />
           <FunFact />
         </About>
         <Resume>
