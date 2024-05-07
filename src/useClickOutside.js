@@ -16,7 +16,6 @@ let useClickOutside = (handler) => {
       document.removeEventListener("mousedown", maybeHandler);
     };
   });
-
   return domNode;
 };
 export default useClickOutside;
