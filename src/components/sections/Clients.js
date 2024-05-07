@@ -28,7 +28,7 @@ const Clients = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.credly.com/badges/91634c7c-a16b-4a43-9949-7092af73b554/public_url"
+                  href="https://www.credly.com/badges/d8324061-f5e2-4c77-83c2-0fe230907a35/public_url"
                 >
                   <img src="images/terraform.webp" alt="Terraform certified associate" />
                 </a>
