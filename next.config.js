@@ -3,8 +3,7 @@ const nextConfig = {
   output: "export",
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/saff-portfolio',
-  assetPrefix: '/',
+  basePath: '/saff-portfolio'
 }
 
 module.exports = nextConfig
