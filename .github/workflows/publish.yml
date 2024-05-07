@@ -35,9 +35,6 @@ jobs:
           npx next build
           npx next export
 
-      - name: Create CNAME file
-        run: echo "gharbidev.com" > out/CNAME
-
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
