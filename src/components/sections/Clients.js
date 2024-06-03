@@ -7,6 +7,8 @@ const Clients = () => {
         <div className="title">Certifications</div>
         {/* content */}
         <div className="row client-items">
+
+
           {/* client item */}
           <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
             <div className="client-item">
@@ -21,6 +23,21 @@ const Clients = () => {
               </div>
             </div>
           </div>
+
+          <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
+            <div className="client-item">
+              <div className="image">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.credly.com/badges/2e551850-8844-41ed-81d4-b30dfa0325f6/public_url"
+                >
+                  <img src="images/aws-certified-developer-associate.png" alt="Terraform certified associate" />
+                </a>
+              </div>
+            </div>
+          </div>
+
           {/* client item */}
           <div className="col col-d-3 col-t-3 col-m-6 border-line-v">
             <div className="client-item">
@@ -35,6 +52,7 @@ const Clients = () => {
               </div>
             </div>
           </div>
+
           <div className="clear" />
         </div>
       </div>

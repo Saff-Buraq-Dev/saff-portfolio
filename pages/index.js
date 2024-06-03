@@ -109,8 +109,8 @@ const Index3 = () => {
       <ContentContainer>
         <About>
           <AboutMe bio={bio} />
-          <Services serviceList={services} />
           <Clients />
+          <Services serviceList={services} />
           <FunFact />
         </About>
         <Resume>
