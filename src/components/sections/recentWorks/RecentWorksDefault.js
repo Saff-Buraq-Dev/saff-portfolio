@@ -177,7 +177,33 @@ const RecentWorksDefault = () => {
           <div className="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h">
             <div className="box-item">
               <div className="image">
-                <a href="https://aws.gharbidev.com/2023/10/29/empowering-your-cloud-journey-a-curated-list-of-resources-to-master-aws/" target="_blank" className="has-popup-media">
+                <a href="https://blog.gharbidev.com/blog-details/github-actions-iam-roles" target="_blank" className="has-popup-media">
+                  <img src="images/works/github-oidc.gif" alt="" />
+                  <span className="info">
+                    <span className="ion ion-document-text" />
+                  </span>
+                </a>
+                <div id="popup-3" className="popup-box mfp-fade mfp-hide">
+                  <div className="content">
+                    <div className="image">
+                      <img src="images/works/github-oidc.gif" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="desc">
+                <a href="https://blog.gharbidev.com/blog-details/github-actions-iam-roles" target="_blank" className="name has-popup-media">
+                  Configuring GitHub Actions with OIDC and IAM Roles for Secure, Keyless Access
+                </a>
+                <div className="category">Blog article</div>
+              </div>
+            </div>
+          </div>
+          {/* work item design */}
+          <div className="col col-d-6 col-t-6 col-m-12 grid-item design border-line-h">
+            <div className="box-item">
+              <div className="image">
+                <a href="https://blog.gharbidev.com/blog-details/learning-resources" target="_blank" className="has-popup-media">
                   <img src="images/works/resources.jpeg" alt="" />
                   <span className="info">
                     <span className="ion ion-document-text" />
@@ -192,7 +218,7 @@ const RecentWorksDefault = () => {
                 </div>
               </div>
               <div className="desc">
-                <a href="https://aws.gharbidev.com/2023/10/29/empowering-your-cloud-journey-a-curated-list-of-resources-to-master-aws/" target="_blank" className="name has-popup-media">
+                <a href="https://blog.gharbidev.com/blog-details/learning-resources" target="_blank" className="name has-popup-media">
                   A Curated List of Resources to Master AWS
                 </a>
                 <div className="category">Blog article</div>
