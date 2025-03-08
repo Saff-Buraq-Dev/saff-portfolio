@@ -98,7 +98,7 @@ const Index3 = () => {
           {/* profile buttons */}
           <div className="lnks">
             <a href="saff_en.pdf" className="lnk" download>
-              <span className="text">Download CV</span>
+              <span className="text">Download Resume</span>
               <span className="ion ion-android-download" />
             </a>
           </div>
